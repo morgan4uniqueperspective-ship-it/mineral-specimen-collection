@@ -1,0 +1,28 @@
+{
+  "localities": [
+    {
+      "id": "vernon-volcanics",
+      "name": "Vernon Volcanics",
+      "region": "Okanagan · British Columbia",
+      "element": "Born from fire",
+      "kicker": "Volcanic belt",
+      "lede": "Crystalline rhyolite and sparkling pyrite — evidence of intense geological activity. Each piece carries the raw energy of the Okanagan landscape."
+    },
+    {
+      "id": "similkameen-valley",
+      "name": "Similkameen Valley",
+      "region": "Princeton to the river bars · British Columbia",
+      "element": "Shaped by water",
+      "kicker": "River drainage",
+      "lede": "Agates and jaspers tumbled for millennia in mountain streams, hand-picked for banding and iron-stained hues. Quartz that still remembers both crystal and current."
+    },
+    {
+      "id": "unplaced",
+      "name": "Unplaced",
+      "region": "Holding ground",
+      "element": "Place not yet named",
+      "kicker": "Until the drainage is certain",
+      "lede": "If we cannot point to the ground, we do not invent the stone's address. These pieces wait here without a false locality."
+    }
+  ]
+}

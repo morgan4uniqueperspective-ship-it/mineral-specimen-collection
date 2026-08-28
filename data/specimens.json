@@ -1,0 +1,59 @@
+{
+  "specimens": [
+    {
+      "id": "vernon-pyrite-matrix-01",
+      "localityId": "vernon-volcanics",
+      "title": "Pyrite in host rock",
+      "species": "Pyrite, marcasite in matrix",
+      "form": "Rough cabinet specimen",
+      "status": "Field piece",
+      "note": "Brassy cubes held in dark volcanic host. Light is the only polish this piece needs.",
+      "image": "",
+      "shopUrl": "https://uniqueperspective8.com/shop/"
+    },
+    {
+      "id": "vernon-rhyolite-01",
+      "localityId": "vernon-volcanics",
+      "title": "Vernon rhyolite",
+      "species": "Rhyolite",
+      "form": "Crystalline mass",
+      "status": "Field piece",
+      "note": "Pale groundmass with a quiet sparkle. Born from fire; left readable.",
+      "image": "",
+      "shopUrl": "https://uniqueperspective8.com/shop/"
+    },
+    {
+      "id": "similkameen-jasper-01",
+      "localityId": "similkameen-valley",
+      "title": "Polychrome jasper",
+      "species": "Jasper",
+      "form": "River cobble / cabochon grade",
+      "status": "Field piece · atelier candidate",
+      "note": "Banding as a calendar. Similkameen stone near Princeton — the same drainage that feeds the heirloom wraps.",
+      "image": "",
+      "shopUrl": "https://uniqueperspective8.com/shop/"
+    },
+    {
+      "id": "similkameen-agate-01",
+      "localityId": "similkameen-valley",
+      "title": "Banded agate",
+      "species": "Agate",
+      "form": "Tumbled river specimen",
+      "status": "Field piece",
+      "note": "Horizontal bands and iron stain. Water wrote this one first.",
+      "image": "",
+      "shopUrl": "https://uniqueperspective8.com/shop/"
+    },
+    {
+      "id": "similkameen-quartz-01",
+      "localityId": "similkameen-valley",
+      "title": "The Creek Quartz",
+      "species": "Quartz",
+      "form": "Point, river-worn on one face",
+      "status": "Notable find",
+      "note": "Double-terminated clear quartz: current on one face, crystal on the other. A specimen that stopped the stride.",
+      "image": "",
+      "shopUrl": "https://uniqueperspective8.com/shop/"
+    }
+  ]
+}
