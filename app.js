@@ -6,15 +6,16 @@ async function loadJSON(path) {
 
 function card(specimen) {
   const photo = specimen.image
-    ? `<img src="${specimen.image}" alt="${specimen.title}">`
-    : specimen.title;
+    ? `<img src="${specimen.image}" alt="${specimen.title}" onerror="this.replaceWith(document.createTextNode('${specimen.id}'))">`
+    : specimen.id;
   return `
     <article class="card" id="${specimen.id}">
       <div class="card-photo">${photo}</div>
       <div class="card-body">
-        <p class="meta">${specimen.species} · ${specimen.form}</p>
+        <p class="meta">${specimen.id} · ${specimen.species}</p>
         <h4>${specimen.title}</h4>
         <p>${specimen.note}</p>
+        <p class="meta" style="margin-top:0.75rem">${specimen.dimensions || ""} · ${specimen.status || ""}</p>
       </div>
     </article>`;
 }
@@ -41,10 +42,10 @@ async function render() {
   const nav = document.getElementById("locality-nav");
   const root = document.getElementById("cabinet");
   try {
-    const [{ localities }, { specimens }] = await Promise.all([
-      loadJSON("data/localities.json"),
-      loadJSON("data/specimens.json")
-    ]);
+    const locData = await loadJSON("data/localities.json");
+    const specData = await loadJSON("data/specimens.json");
+    const localities = locData.localities;
+    const specimens = specData.specimens;
     nav.innerHTML = localities
       .filter((l) => l.id !== "unplaced")
       .map((l) => `<a href="#${l.id}">${l.name}</a>`)
@@ -58,7 +59,7 @@ async function render() {
       )
       .join("");
   } catch (err) {
-    root.innerHTML = `<p class="empty">The cabinet could not be read. Open this page through GitHub Pages so the data files can load.</p>`;
+    root.innerHTML = `<p class="empty">The cabinet could not be read. Serve this folder over GitHub Pages so the ledger files can load.</p>`;
     console.error(err);
   }
 }

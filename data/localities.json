@@ -1,28 +1,35 @@
 {
+  "source": "The Vein Ledger UP8 Inventory Log UPDATED",
+  "sourceId": "1Om3WdTV_eKBEU1jdZUSaUftavX582ok5L4sVJFtlSIY",
+  "synced": "2026-08-28",
+  "rule": "Location names appear only when Provenance_Master.Verified is YES. All other areas file under Unplaced.",
   "localities": [
     {
-      "id": "vernon-volcanics",
-      "name": "Vernon Volcanics",
-      "region": "Okanagan · British Columbia",
-      "element": "Born from fire",
-      "kicker": "Volcanic belt",
-      "lede": "Crystalline rhyolite and sparkling pyrite — evidence of intense geological activity. Each piece carries the raw energy of the Okanagan landscape."
+      "id": "similkameen-valley",
+      "areaCode": "SIM",
+      "name": "Similkameen River jasper corridor",
+      "region": "Similkameen Valley, British Columbia",
+      "element": "Shaped by water",
+      "kicker": "Verified locality",
+      "lede": "Hand-dug jasper from the Similkameen corridor. Tenure and permission basis are still being written into the ledger; the name is verified, the claim language is not yet complete."
     },
     {
-      "id": "similkameen-valley",
-      "name": "Similkameen Valley",
-      "region": "Princeton to the river bars · British Columbia",
-      "element": "Shaped by water",
-      "kicker": "River drainage",
-      "lede": "Agates and jaspers tumbled for millennia in mountain streams, hand-picked for banding and iron-stained hues. Quartz that still remembers both crystal and current."
+      "id": "summerland",
+      "areaCode": "SUM",
+      "name": "Summerland",
+      "region": "Okanagan, British Columbia",
+      "element": "Okanagan ground",
+      "kicker": "Verified locality",
+      "lede": "Named in the ledger as Summerland. No GPS is on file yet. The name is verified; the exact bar or outcrop is not."
     },
     {
       "id": "unplaced",
+      "areaCode": "",
       "name": "Unplaced",
       "region": "Holding ground",
       "element": "Place not yet named",
       "kicker": "Until the drainage is certain",
-      "lede": "If we cannot point to the ground, we do not invent the stone's address. These pieces wait here without a false locality."
+      "lede": "Oliver, Rox, Okanagan, Hedley, Vernon, Tulameen, Gallagher and Legacy rows wait here. The ledger will not print an unverified location on a certificate. Neither will this cabinet."
     }
   ]
 }
